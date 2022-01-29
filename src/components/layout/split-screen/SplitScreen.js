@@ -26,7 +26,7 @@ const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
 }
 
 SplitScreen.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
   leftWeight: PropTypes.number,
   rightWeight: PropTypes.number
 }
