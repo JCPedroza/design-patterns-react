@@ -1,0 +1,12 @@
+# File ignore for line count shield
+
+# Ignore these directories
+.git/
+.github/
+.husky/
+
+# Ignore these files
+LICENSE
+.gitignore
+*.json
+*.md

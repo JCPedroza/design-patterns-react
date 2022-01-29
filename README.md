@@ -1,3 +1,27 @@
+<h1 align="center">JavaScript Algorithms & Data Structures</h1>
+
+<p align="center">
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
+  <a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/contributors/JCPedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react">
+</p>
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
