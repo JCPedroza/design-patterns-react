@@ -4,12 +4,13 @@ import SplitScreen from './SplitScreen'
 const Left = () => <p>left</p>
 const Right = () => <p>right</p>
 
-it('renders something', () => {
+it('renders left and right components', () => {
   const { container } = render(
     <SplitScreen leftWeight={1} rightWeight={1}>
       <Left />
       <Right />
-    </SplitScreen>)
+    </SplitScreen>
+  )
 
   expect(container).toMatchSnapshot()
 })
