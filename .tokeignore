@@ -1,6 +1,7 @@
 # File ignore for line count shield
 
 # Ignore these directories
+__snapshots__/
 .git/
 .github/
 .husky/
