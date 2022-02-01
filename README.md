@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript Algorithms & Data Structures</h1>
+<h1 align="center">React Design Patterns</h1>
 
 <p align="center">
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
