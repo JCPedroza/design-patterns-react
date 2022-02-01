@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders item 1`] = `
+<div>
+  <ul>
+    <li>
+      title
+      : 
+      One
+    </li>
+    <li>
+      year
+      : 
+      1901
+    </li>
+  </ul>
+</div>
+`;
