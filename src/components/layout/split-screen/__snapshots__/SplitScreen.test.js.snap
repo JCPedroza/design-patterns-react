@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders something 1`] = `
+exports[`renders left and right components 1`] = `
 <div>
   <div
     class="sc-bdvvtL jxnajB"
