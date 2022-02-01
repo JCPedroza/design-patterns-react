@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 
-const Item = ({ item, showKeys }) => {
+const Item = ({ item, keysToShow }) => {
   const accumulator = {}
 
-  showKeys.forEach(key => {
+  keysToShow.forEach(key => {
     if (key in item) accumulator[key] = item[key]
   })
 
@@ -20,7 +20,7 @@ const Item = ({ item, showKeys }) => {
 
 Item.propTypes = {
   item: PropTypes.object.isRequired,
-  showKeys: PropTypes.arrayOf(PropTypes.string).isRequired
+  keysToShow: PropTypes.arrayOf(PropTypes.string).isRequired
 }
 
 export default Item

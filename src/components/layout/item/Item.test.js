@@ -9,11 +9,11 @@ db.injectData([
 ])
 
 const song = db.getById(1)
-const showKeys = ['title', 'year']
+const keysToShow = ['title', 'year']
 
 it('renders item', () => {
   const { container } = render(
-    <Item item={song} showKeys={showKeys} />
+    <Item item={song} keysToShow={keysToShow} />
   )
 
   expect(container).toMatchSnapshot()
