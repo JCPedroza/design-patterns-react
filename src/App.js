@@ -1,4 +1,4 @@
-import { SplitScreen } from './components/layout/split-screen/SplitScreen'
+import SplitScreen from './components/layout/split-screen/SplitScreen'
 
 const Left = () => <h1>Left</h1>
 
