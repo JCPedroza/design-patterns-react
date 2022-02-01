@@ -1,13 +1,12 @@
 import PropTypes from 'prop-types'
 
+const buildItemToShow = (item, keysToShow) => {
+  const itemProxy = new Proxy(item, { ownKeys: () => keysToShow })
+  return Object.entries(Object.assign({}, itemProxy))
+}
+
 const Item = ({ item, keysToShow }) => {
-  const accumulator = {}
-
-  keysToShow.forEach(key => {
-    if (key in item) accumulator[key] = item[key]
-  })
-
-  const itemToShow = Object.entries(accumulator)
+  const itemToShow = buildItemToShow(item, keysToShow)
 
   return (
     <>
