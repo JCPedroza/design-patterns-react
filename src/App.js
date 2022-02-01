@@ -1,16 +1,10 @@
-import SplitScreen from './components/layout/split-screen/SplitScreen'
+import Item from './components/layout/item/Item'
 
-const Left = () => <h1>Left</h1>
+import Song from './mock-db'
 
-const Right = () => <h1>Right</h1>
-
-function App () {
-  return (
-    <SplitScreen leftWeight={1} rightWeight={2}>
-      <Left />
-      <Right />
-    </SplitScreen>
-  )
+const App = () => {
+  const song = Song.findById(1)
+  return <Item item={song} keysToShow={['author', 'year']} />
 }
 
 export default App
