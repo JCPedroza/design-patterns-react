@@ -11,6 +11,12 @@
   <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
 </p>
 
+<hr>
+
+<p>This repository is dedicated to the study of React design patterns.</p>
+
+<h1 align="center">Contributing</h1>
+
 <p align="center">
   <img src="https://img.shields.io/github/contributors/JCPedroza/design-patterns-react">
   <img src="https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react">
@@ -20,7 +26,7 @@
   <img src="https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react">
 </p>
 
-<hr>
+<p>Code reviews and pull requests are always welcome!</p>
 
 # Getting Started with Create React App
 
