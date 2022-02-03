@@ -1,9 +1,9 @@
 import Item from './components/layout/item/Item'
 
-import Song from './mock-db'
+import Song from './db'
 
 const App = () => {
-  const song = Song.findById(1)
+  const song = Song.getById(1)
   return <Item item={song} keysToShow={['author', 'year']} />
 }
 
