@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
   <a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a>
+  <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
 </p>
 
 <p align="center">
