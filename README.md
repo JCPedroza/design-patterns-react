@@ -131,7 +131,7 @@ This section has moved here: [npm-run-build-fails-to-minify][110]
 [103]: https://facebook.github.io/create-react-app/docs/deployment
 [104]: https://facebook.github.io/create-react-app/docs/getting-started
 [105]: https://facebook.github.io/create-react-app/docs/code-splitting
-[106}: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+[106]: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 [107]: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 [108]: https://facebook.github.io/create-react-app/docs/advanced-configuration
 [109]: https://facebook.github.io/create-react-app/docs/deployment
