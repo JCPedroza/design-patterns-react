@@ -60,8 +60,8 @@ you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for
 small and middle deployments, and you shouldn't feel obligated to use this
-feature. However we understand that this tool wouldn't be useful if you couldn't
-customize it when you are ready for it.
+feature. However we understand that this tool wouldn't be useful if you
+couldn't customize it when you are ready for it.
 
 ### Learn More
 
@@ -98,7 +98,7 @@ This section has moved here: [npm-run-build-fails-to-minify][110]
 [![total lines][51]][52] [![code size][53]][54] [![repo size][55]][56]
 
 [1]: https://img.shields.io/github/license/jcpedroza/design-patterns-react
-[2]: https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE
+[2]: https://en.wikipedia.org/wiki/MIT_License
 [3]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [4]: https://standardjs.com
 [5]: https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a
