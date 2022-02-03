@@ -2,11 +2,14 @@ import { render } from '@testing-library/react'
 
 import Item from './Item'
 
-import db from '../../../mock-db'
+import db from '../../../db'
 
-db.injectData([
-  { id: 1, title: 'One', author: 'one', year: 1901 }
-])
+const itemData = { id: 1, title: 'One', author: 'Mario', year: 1926 }
+
+jest.mock('../../../db', () => ({
+  ...jest.requireActual('../../../db'),
+  getById: jest.fn().mockReturnValue(itemData)
+}))
 
 const song = db.getById(1)
 const keysToShow = ['title', 'year']
