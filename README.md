@@ -1,12 +1,12 @@
 # React Design Patterns
 
-<a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a> <a href="https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a"/></a> <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
+[![license MIT][1]][2] [![code stile: standard][3]][4] [![codacy code quality][5]][6] [![codefactor code quality][7]][8]
 
 This repository is dedicated to the study of React design patterns.
 
 # Contributing
 
-<img src="https://img.shields.io/github/contributors/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react">
+[![contributors][25]][26] [![commit activity][27]][28] [![issues][29]][30] [![issues closed][31]][32] [![issues pr][33]][34] [![issues pr closed][35]][36]
 
 Code reviews and pull requests are always welcome!
 
@@ -83,4 +83,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ---
 
-<img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react"> <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react"> <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
+[![total lines][51]][52] [![code size][53]][54] [![repo size][55]][56]
+
+[1]: https://img.shields.io/github/license/jcpedroza/design-patterns-react
+[2]: https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE
+[3]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
+[4]: https://standardjs.com
+[5]: https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a
+[6]:https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade
+[7]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge
+[8]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react
+
+[25]: https://img.shields.io/github/contributors/JCPedroza/design-patterns-react
+[26]: https://img.shields.io/github/contributors/JCPedroza/design-patterns-react
+[27]: https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react
+[28]: https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react
+[29]: https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react
+[30]: https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react
+[31]: https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react
+[32]: https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react
+[33]: https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react
+[34]: https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react
+[35]: https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react
+[36]: https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react
+
+[51]: https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react
+[52]: https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react
+[53]: https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react
+[54]: https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react
+[55]: https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react
+[56]: https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react
+
