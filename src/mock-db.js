@@ -22,7 +22,7 @@ const isMatch = (target, filter) => {
 }
 
 const findIndexOfId = (id) => {
-  const parsedId = parseInt(id)
+  const parsedId = parseInt(id, 10)
   const index = data.findIndex(point => point.id === parsedId)
   if (parsedId === -1) throw new Error(`Cannot find id: ${id}`)
   return index
