@@ -13,8 +13,6 @@
   <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
 </p>
 
-<hr>
-
 <p>This repository is dedicated to the study of React design patterns.</p>
 
 <h1 align="center">Contributing</h1>
