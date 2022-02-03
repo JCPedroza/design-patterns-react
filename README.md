@@ -102,7 +102,7 @@ This section has moved here: [npm-run-build-fails-to-minify][110]
 [3]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [4]: https://standardjs.com
 [5]: https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a
-[6]:https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade
+[6]: https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade
 [7]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge
 [8]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react
 
