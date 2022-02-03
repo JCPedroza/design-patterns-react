@@ -1,26 +1,14 @@
-<h1 align="center">React Design Patterns</h1>
+# React Design Patterns
 
-<p align="center">
-  <a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a>
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
-  <a href="https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a"/></a>
-  <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
-</p>
+<a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a> <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a> <a href="https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a"/></a> <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
 
-<p>This repository is dedicated to the study of React design patterns.</p>
+This repository is dedicated to the study of React design patterns.
 
-<h1 align="center">Contributing</h1>
+# Contributing
 
-<p align="center">
-  <img src="https://img.shields.io/github/contributors/JCPedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react">
-</p>
+<img src="https://img.shields.io/github/contributors/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/commit-activity/m/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-closed-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-pr-raw/JCPedroza/design-patterns-react"> <img src="https://img.shields.io/github/issues-pr-closed-raw/JCPedroza/design-patterns-react">
 
-<p>Code reviews and pull requests are always welcome!</p>
+Code reviews and pull requests are always welcome!
 
 # Getting Started with Create React App
 
@@ -93,10 +81,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-<hr>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
-</p>
+<img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react"> <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react"> <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
