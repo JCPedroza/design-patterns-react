@@ -21,7 +21,7 @@ const isMatch = (target, filter) => {
   })
 }
 
-const findIndexOfId = (id) => {
+const getIndexOfId = (id) => {
   const parsedId = parseInt(id, 10)
   const index = data.findIndex(point => point.id === parsedId)
   if (parsedId === -1) throw new Error(`Cannot find id: ${id}`)
@@ -40,26 +40,26 @@ const getById = (id) =>
 const create = (dataPoint) =>
   data[data.push(dataPoint) - 1]
 
-const findByIdAndReplace = (id, replacement) =>
-  data.splice(findIndexOfId(id), 1, replacement)[0]
+const getByIdAndReplace = (id, replacement) =>
+  data.splice(getIndexOfId(id), 1, replacement)[0]
 
-const findByIdAndUpdate = (id, update) => {
-  const index = findIndexOfId(id)
+const getByIdAndUpdate = (id, update) => {
+  const index = getIndexOfId(id)
   data[index] = { ...data[index], ...update }
   return data[index]
 }
 
-const findByIdAndDelete = (id) =>
-  data.splice(findIndexOfId(id), 1)[0]
+const getByIdAndDelete = (id) =>
+  data.splice(getIndexOfId(id), 1)[0]
 
 const api = {
   injectData,
   find,
   getById,
   create,
-  findByIdAndReplace,
-  findByIdAndUpdate,
-  findByIdAndDelete
+  getByIdAndReplace,
+  getByIdAndUpdate,
+  getByIdAndDelete
 }
 
 export default api
