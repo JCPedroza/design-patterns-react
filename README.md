@@ -7,12 +7,6 @@
   <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react">
-  <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
-</p>
-
 <p>This repository is dedicated to the study of React design patterns.</p>
 
 <h1 align="center">Contributing</h1>
@@ -98,3 +92,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<hr>
+
+<p align="center">
+  <img src="https://img.shields.io/tokei/lines/github/jcpedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/languages/code-size/jcpedroza/design-patterns-react">
+  <img src="https://img.shields.io/github/repo-size/jcpedroza/design-patterns-react">
+</p>
