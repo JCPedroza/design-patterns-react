@@ -1,10 +1,10 @@
 <h1 align="center">React Design Patterns</h1>
 
 <p align="center">
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
   <a href="https://github.com/JCPedroza/design-patterns-react/blob/master/LICENSE"><img src="https://img.shields.io/github/license/jcpedroza/design-patterns-react"></a>
-  <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg"></a>
   <a href="https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/80e2495e7d7741fa9d2e6881698b930a"/></a>
+  <a href="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react"><img src="https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge" alt="CodeFactor" /></a>
 </p>
 
 <p align="center">
