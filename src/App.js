@@ -1,10 +1,17 @@
 import Item from './components/layout/item/Item'
+import List from './components/layout/list/List'
 
 import Song from './db'
 
 const App = () => {
-  const song = Song.getById(1)
-  return <Item item={song} keysToShow={['author', 'year']} />
+  return (
+    <List
+      items={Song.find()}
+      keysToShow={['id', 'title', 'author', 'year']}
+      resourceName='item'
+      itemComponent={Item}
+    />
+  )
 }
 
 export default App
