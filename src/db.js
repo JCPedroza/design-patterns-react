@@ -6,9 +6,10 @@
  * Data that the collection holds.
  */
 const data = [
-  { id: 1, title: 'One', author: 'Mario', year: 1926 },
-  { id: 2, title: 'Tuesday', author: 'Fernanda', year: 2013 },
-  { id: 3, title: 'Blue', author: 'Unknown', year: 1926 }
+  { id: 14, title: 'One', author: 'Mario', year: 1926, time: 123 },
+  { id: 38, title: 'Tuesday', author: 'Fernanda', year: 2013, time: 234 },
+  { id: 23, title: 'Blue', author: 'Unknown', year: 1926, time: 428 },
+  { id: 49, title: 'Untitled', author: 'Radiohead', year: 2003, time: 357 }
 ]
 
 const isMatch = (target, filter) => {
