@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import { arrayOf, element, number } from 'prop-types'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -26,9 +26,9 @@ const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
 }
 
 SplitScreen.propTypes = {
-  children: PropTypes.arrayOf(PropTypes.element).isRequired,
-  leftWeight: PropTypes.number,
-  rightWeight: PropTypes.number
+  children: arrayOf(element).isRequired,
+  leftWeight: number,
+  rightWeight: number
 }
 
 export default SplitScreen

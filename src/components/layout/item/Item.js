@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import { arrayOf, object, string } from 'prop-types'
 
 const buildItemToShow = (item, keysToShow) => {
   const itemProxy = new Proxy(item, { ownKeys: () => keysToShow })
@@ -18,8 +18,8 @@ const Item = ({ item, keysToShow }) => {
 }
 
 Item.propTypes = {
-  item: PropTypes.object.isRequired,
-  keysToShow: PropTypes.arrayOf(PropTypes.string).isRequired
+  item: object.isRequired,
+  keysToShow: arrayOf(string).isRequired
 }
 
 export default Item
