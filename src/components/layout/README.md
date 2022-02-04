@@ -1,20 +1,19 @@
-<h1>Layout Components</h1>
+# Layout Components
 
-<p>Layout components are components that deal primarily with arranging other components on the page.</p>
+Layout components are components that deal primarily with arranging other
+components on the page.
 
-<p>Layout components should't know where they are being displayed.</p>
+Layout components should't know where they are being displayed.
 
-<h2>Examples</h2>
+## Examples
 
-<ul>
-  <li>Split screen</li>
-  <li>Item</li>
-  <li>List</li>
-  <li>Modal</li>
-</ul>
+- Split screen
+- Item
+- List
+- Modal
 
-<h2>Resources</h2>
+## Resources
 
-<ul>
-  <li><a href="https://reactpatterns.com/#layout-component">Layout Component at reactpatterns.com</a></li>
-</ul>
+- [Layout Component at reactpatterns.com][1]
+
+[1]: https://reactpatterns.com/#layout-component
