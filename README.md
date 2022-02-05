@@ -1,6 +1,6 @@
 # React Design Patterns
 
-[![license MIT][1]][2] [![code stile: standard][3]][4]
+[![license MIT][1]][2] [![code stile: standard][3]][4] [![build status][9]][10]
 [![codacy code quality][5]][6] [![codefactor code quality][7]][8]
 
 This repository is dedicated to the study of JavaScript and front-end
@@ -11,10 +11,10 @@ From Wikipedia:
 
 > In software engineering, a software design pattern is a general, reusable
 > solution to a commonly occurring problem within a given context in software
-> design. It is not a finished design that can be transformed directly into 
-> source or machine code. Rather, it is a description or template for how to 
-> solve a problem that can be used in many different situations. Design 
-> patterns are formalized best practices that the programmer can use to solve 
+> design. It is not a finished design that can be transformed directly into
+> source or machine code. Rather, it is a description or template for how to
+> solve a problem that can be used in many different situations. Design
+> patterns are formalized best practices that the programmer can use to solve
 > common problems when designing an application or system.
 
 ## Contributing
@@ -121,6 +121,8 @@ This section has moved here: [npm-run-build-fails-to-minify][110]
 [6]: https://www.codacy.com/gh/JCPedroza/design-patterns-react/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JCPedroza/design-patterns-react&amp;utm_campaign=Badge_Grade
 [7]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react/badge
 [8]: https://www.codefactor.io/repository/github/jcpedroza/design-patterns-react
+[9]: https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fjcpedroza%2Fdesign-patterns-react%2Fbadge%3Fref%3Dmain&style=flat
+[10]: https://actions-badge.atrox.dev/jcpedroza/design-patterns-react/goto?ref=main
 
 [25]: https://img.shields.io/github/contributors/JCPedroza/design-patterns-react
 [26]: https://img.shields.io/github/contributors/JCPedroza/design-patterns-react
