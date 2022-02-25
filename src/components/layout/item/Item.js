@@ -1,25 +1,20 @@
 import { arrayOf, object, string } from 'prop-types'
 
-const buildItemToShow = (item, keysToShow) => {
-  const itemProxy = new Proxy(item, { ownKeys: () => keysToShow })
-  return Object.entries(Object.assign({}, itemProxy))
-}
-
-const Item = ({ item, keysToShow }) => {
-  const itemToShow = buildItemToShow(item, keysToShow)
+const Item = ({ data = {}, showEntries }) => {
+  const itemProxy = new Proxy(data, { ownKeys: () => showEntries })
+  const itemToShow = Object.entries(Object.assign({}, itemProxy))
 
   return (
-    <>
-      <ul>
-        {itemToShow.map(([key, value]) => <li key={key}>{key}: {value}</li>)}
-      </ul>
-    </>
+    <ul>
+      {itemToShow.map(([key, val]) =>
+        <li key={key}>{key}: {val}</li>)}
+    </ul>
   )
 }
 
 Item.propTypes = {
-  item: object.isRequired,
-  keysToShow: arrayOf(string).isRequired
+  data: object,
+  showEntries: arrayOf(string).isRequired
 }
 
 export default Item

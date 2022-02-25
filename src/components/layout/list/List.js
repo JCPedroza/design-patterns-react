@@ -2,20 +2,19 @@ import { Fragment } from 'react'
 import { arrayOf, object, string, func } from 'prop-types'
 
 const List = ({
-  items,
-  keysToShow,
+  dataArray,
+  showEntries,
   resourceName,
   itemComponent: ItemComponent
 }) => {
   return (
     <>
-      {items.map((item, index) => (
-        <Fragment key={item.id}>
+      {dataArray.map((data, index) => (
+        <Fragment key={data.id}>
           <h3>{index + 1}</h3>
           <ItemComponent
-            key={item.id}
-            {...{ [resourceName]: item }}
-            keysToShow={keysToShow}
+            {...{ [resourceName]: data }}
+            showEntries={showEntries}
           />
         </Fragment>
       ))}
@@ -24,8 +23,8 @@ const List = ({
 }
 
 List.propTypes = {
-  items: arrayOf(object).isRequired,
-  keysToShow: arrayOf(string).isRequired,
+  dataArray: arrayOf(object).isRequired,
+  showEntries: arrayOf(string).isRequired,
   resourceName: string.isRequired,
   itemComponent: func.isRequired
 }

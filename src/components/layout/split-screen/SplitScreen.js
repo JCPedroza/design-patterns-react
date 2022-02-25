@@ -9,8 +9,9 @@ const Pane = styled.div`
   flex: ${props => props.weight};
 `
 
-const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
+const SplitScreen = ({ children, weights }) => {
   const [left, right] = children
+  const [leftWeight, rightWeight] = weights
 
   return (
     <Container>
@@ -27,8 +28,7 @@ const SplitScreen = ({ children, leftWeight = 1, rightWeight = 1 }) => {
 
 SplitScreen.propTypes = {
   children: arrayOf(element).isRequired,
-  leftWeight: number,
-  rightWeight: number
+  weights: arrayOf(number).isRequired
 }
 
 export default SplitScreen
