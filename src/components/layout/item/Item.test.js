@@ -2,14 +2,13 @@ import { render } from '@testing-library/react'
 
 import Item from './Item'
 
-const itemData = { id: 1, title: 'One', author: 'Mario', year: 1926 }
+const data = { id: 1, title: 'One', author: 'Mario', year: 1926 }
+const showEntries = ['title', 'year']
+const itemProps = { data, showEntries }
 
-const keysToShow = ['title', 'year']
-
-it('renders item', () => {
-  const { container } = render(
-    <Item item={itemData} keysToShow={keysToShow} />
-  )
-
-  expect(container).toMatchSnapshot()
+describe('Item component', () => {
+  it('renders item data', () => {
+    const { container } = render(<Item {...itemProps} />)
+    expect(container).toMatchSnapshot()
+  })
 })
