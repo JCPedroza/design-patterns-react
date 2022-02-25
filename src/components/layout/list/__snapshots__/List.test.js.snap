@@ -1,81 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders a list 1`] = `
+exports[`List component renders items as a list 1`] = `
 <div>
   <h3>
     1
   </h3>
-  <ul>
-    <li>
-      id
-      : 
-      14
-    </li>
-    <li>
-      title
-      : 
-      One
-    </li>
-    <li>
-      author
-      : 
-      Mario
-    </li>
-    <li>
-      year
-      : 
-      1926
-    </li>
-  </ul>
+  <ul />
   <h3>
     2
   </h3>
-  <ul>
-    <li>
-      id
-      : 
-      38
-    </li>
-    <li>
-      title
-      : 
-      Tuesday
-    </li>
-    <li>
-      author
-      : 
-      Fernanda
-    </li>
-    <li>
-      year
-      : 
-      2013
-    </li>
-  </ul>
+  <ul />
   <h3>
     3
   </h3>
-  <ul>
-    <li>
-      id
-      : 
-      49
-    </li>
-    <li>
-      title
-      : 
-      Untitled
-    </li>
-    <li>
-      author
-      : 
-      Radiohead
-    </li>
-    <li>
-      year
-      : 
-      2003
-    </li>
-  </ul>
+  <ul />
 </div>
 `;
