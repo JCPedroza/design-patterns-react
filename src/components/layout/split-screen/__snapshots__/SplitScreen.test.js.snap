@@ -3,17 +3,17 @@
 exports[`SplitScreen component renders left and right components 1`] = `
 <div>
   <div
-    class="sc-bdvvtL jxnajB"
+    class="sc-bczRLJ emMGHK"
   >
     <div
-      class="sc-gsDKAQ eSVvJK"
+      class="sc-gsnTZi AoLXC"
     >
       <p>
         left
       </p>
     </div>
     <div
-      class="sc-gsDKAQ eSVXRk"
+      class="sc-gsnTZi Apofc"
     >
       <p>
         right
