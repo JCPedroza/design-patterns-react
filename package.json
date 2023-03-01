@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "husky": "8.0.1",
-    "jsdoc": "3.6.11",
+    "jsdoc": "4.0.2",
     "standard": "17.0.0"
   },
   "standard": {
